@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #190e3a;
+}
+.heading {
+  font-size: 4rem;
+  text-align: center;
+  color: #e0dedb;
+  margin-top: 2rem;
+}
+
+section {
+  width: 60%;
+  text-align: center;
+  float: right;
+}
+
+.form {
+  padding-top: 5rem;
+  scroll-padding-right: 25rem;
+}
+
+label {
+  width: 20rem;
+  display: inline-block;
+  font-size: 2rem;
+  text-align: left;
+  color: rgb(74, 231, 113);
+}
+
+input {
+  margin-top: 1.5rem;
+  height: 2.5rem;
+  background: transparent;
+  border: 0.5px solid #e2f3f5;
+  color: cornsilk;
+}
+
+img {
+  height: 53rem;
+  width: 50rem;
+  padding-top: 10rem;
+  padding-left: 15rem;
+}
+
+.btn {
+  width: 20rem;
+  background-color: #e2f3f5;
+  color: rgb(100, 100, 100);
+  font-size: 1.8rem;
+  font-weight: 250;
+}

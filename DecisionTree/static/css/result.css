@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(/static/img/pexels-lukas-1410138.jpg);
+}
+
+h2 {
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 15rem;
+  color: olive;
+  text-shadow: 2px 2px 5px whitesmoke;
+}
+
+h1 {
+  font-size: 8rem;
+  text-align: center;
+  padding-top: 5rem;
+  color: olive;
+  text-shadow: 2px 2px 5px whitesmoke;
+}
+
+p {
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 03rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 550;
+  text-shadow: 1px 1px 3px whitesmoke;
+}
+.credit {
+  padding: 2rem;
+  padding-left: 45rem;
+}
+div {
+  width: 50%;
+  height: 15rem;
+  margin-left: 32rem;
+  border-style: double;
+  border-radius: 15px;
+  margin-top: 5rem;
+}
+
+a {
+  display: block;
+  padding-left: 45%;
+  font-size: 2rem;
+  padding-top: 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+}

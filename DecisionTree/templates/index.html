@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/main.css" />
+    <title>Wine Quality Check</title>
+  </head>
+  <body>
+    <h1 class="heading">Predict Quality Of Wine</h1>
+    <section>
+      <form class="form" action="/predict" method="POST">
+        <label for="fixed_acidity">Fixed Acidity</label>
+        <input type="number" name="fixed_acidity" id="fixed_acidity" step="any"/><br>
+        <label for="volatile acidity">Volatile Acidity</label>
+        <input type="number" name="volatile_acidity" id="volatile acidity" step="any"/><br>
+        <label for="citric acid">Citric Acid</label>
+        <input type="number" name="citric_acid" id="citric acid" step="any"/><br>
+        <label for="residual sugar">Residual Sugar</label>
+        <input type="number" name="residual_sugar" id="residual sugar" step="any"/><br>
+        <label for="chlorides">Chlorides</label>
+        <input type="number" name="chlorides" id="chlorides" step="any"/><br>
+        <label for="free sulfur dioxide">Free Sulphur Dioxide</label>
+        <input
+          type="number"
+          name="free_sulphur_dioxide"
+          id="free sulfur dioxide"
+          step="any"
+        /><br>
+        <label for="total sulfur dioxide">Total Sulphur Dioxide</label>
+        <input
+          type="number"
+          name="total_sulphur_dioxide"
+          id="total sulfur dioxide"
+          step="any"
+        /><br>
+        <label for="density">Density</label>
+        <input type="number" name="density" id="density" step="any"/><br>
+        <label for="pH">pH</label>
+        <input type="number" name="pH" id="pH" step="any" /><br>
+        <label for="sulphates">Sulphates</label>
+        <input type="number" name="sulphates" id="sulphates" step="any"/><br>
+        <label for="alcohol">Alcohol</label>
+        <input type="number" name="alcohol" id="alcohol" step="any"/><br>
+        <input class="btn" type="submit" value="Predict"/>
+      </form>
+    </section>
+
+      <div class="wine-img">
+        <img src="/static/img/wine.png" alt="">
+      </div>
+
+  </body>
+</html>
